@@ -9,8 +9,7 @@ main {
 
 
 footer {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 
@@ -20,7 +19,9 @@ img {
 
 
 nav {
-    border-bottom: 1px;
+    border-color: black;
+    border-bottom: 1px solid;
     padding: 16px;
+    background-color: white;
 
 }
