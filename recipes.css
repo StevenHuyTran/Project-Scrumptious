@@ -5,11 +5,16 @@ body {
 
 main {
     padding: 16px;
+
+
 }
 
 
 footer {
-    padding: 24px 0;
+    padding: 24px 24px;
+    background-color: #B4CF66;
+    text-align:start;
+
 }
 
 
@@ -22,6 +27,44 @@ nav {
     border-color: black;
     border-bottom: 1px solid;
     padding: 16px;
-    background-color: white;
+    background-color: rgb(246, 129, 12);
 
+}
+
+.is-dark-green {
+    color: #146152
+}
+
+h1 {
+    color: #146152
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns:280px 300px 300px 300px;
+    padding: 10px;
+
+}
+
+h3 > a {
+    color: #44803F;
+    text-decoration: none;
+}
+
+
+.recipes {
+    display: grid;
+    grid-template-columns:75px 75px;
+    grid-template-rows: 30px 30px;
+    padding: 10px;
+
+}
+
+
+
+
+
+tr:nth-child(even) {
+    background-color: lightgrey;
 }
